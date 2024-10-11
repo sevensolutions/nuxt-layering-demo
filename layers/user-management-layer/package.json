@@ -1,0 +1,23 @@
+{
+  "name": "user-management-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev",
+    "dev:prepare": "nuxt prepare",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.0",
+    "typescript": "^5.6.2",
+    "nuxt": "^3.13.0",
+    "vue": "latest"
+  }
+}
