@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="contact in contacts" :key="contact.id">
-      <a :href="`/contacts/${contact.id}`">{{ contact.name }}</a>
+      <NuxtLink :to="`/contacts/${contact.id}`">{{ contact.name }}</NuxtLink>
     </li>
   </ul>
 </template>
