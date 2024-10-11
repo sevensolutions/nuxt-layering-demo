@@ -1,6 +1,4 @@
 <template>
-  <div>Contacts</div>
-
   <ul>
     <li v-for="contact in contacts" :key="contact.id">
       <a :href="`/contacts/${contact.id}`">{{ contact.name }}</a>

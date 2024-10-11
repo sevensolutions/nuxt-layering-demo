@@ -1,0 +1,9 @@
+{
+  "name": "nuxt-layering-demo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "(cd layers/base-layer && npm i); (cd layers/user-management && npm i); (cd layers/custom-user-management && npm i); (cd final && npm i);",
+    "dev": "cd final && npm run dev"
+  }
+}
